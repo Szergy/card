@@ -1,0 +1,53 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card{
+  width: 400px;
+  background-color: rgba(43, 194, 221, 0.696);
+  padding: 10px;
+  margin: 0 auto;
+  border: solid 0.5px rgba(70, 131, 180, 0.667);
+  border-radius: 10px;
+}
+
+.card_title{
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+.figure{
+  width: 100%;
+}
+
+.figure_img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card_paragrath{
+  padding-top: 12px;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+
+.btn{
+  display: inline-block;
+  /*display: block;*/
+  background-color: rgba(70, 131, 180, 0.667);
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  transform: translate(150px);
+}
+
+.btn--border{
+  border-radius: 10px;
+}
+
+.btn--center{
+    margin-left: auto;
+    margin-right: auto; 
+}
